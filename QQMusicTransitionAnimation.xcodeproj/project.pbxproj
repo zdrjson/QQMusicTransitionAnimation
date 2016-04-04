@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5293FBA1CB2361700324659 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5293FB91CB2361700324659 /* main.m */; };
+		F5293FBD1CB2361700324659 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5293FBC1CB2361700324659 /* AppDelegate.m */; };
+		F5293FC01CB2361700324659 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5293FBF1CB2361700324659 /* ViewController.m */; };
+		F5293FC61CB2361700324659 /* QQMusicTransitionAnimation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F5293FC41CB2361700324659 /* QQMusicTransitionAnimation.xcdatamodeld */; };
+		F5293FC81CB2361700324659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5293FC71CB2361700324659 /* Assets.xcassets */; };
+		F5293FCB1CB2361700324659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5293FC91CB2361700324659 /* LaunchScreen.storyboard */; };
+		F5293FD61CB2361800324659 /* QQMusicTransitionAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5293FD51CB2361800324659 /* QQMusicTransitionAnimationTests.m */; };
+		F5293FE11CB2361800324659 /* QQMusicTransitionAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5293FE01CB2361800324659 /* QQMusicTransitionAnimationUITests.m */; };
+		F5293FF51CB2364700324659 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5293FEF1CB2364700324659 /* SecondViewController.m */; };
+		F5293FF61CB2364700324659 /* TransitionFromSecondToFirst.m in Sources */ = {isa = PBXBuildFile; fileRef = F5293FF11CB2364700324659 /* TransitionFromSecondToFirst.m */; };
+		F5293FF71CB2364700324659 /* TransitionFromFirstToSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = F5293FF31CB2364700324659 /* TransitionFromFirstToSecond.m */; };
+		F5293FF81CB2364700324659 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5293FF41CB2364700324659 /* Main.storyboard */; };
+		F5293FFA1CB236EC00324659 /* taylorSwift.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5293FF91CB236EC00324659 /* taylorSwift.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5293FD21CB2361800324659 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5293FAD1CB2361700324659 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5293FB41CB2361700324659;
+			remoteInfo = QQMusicTransitionAnimation;
+		};
+		F5293FDD1CB2361800324659 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5293FAD1CB2361700324659 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5293FB41CB2361700324659;
+			remoteInfo = QQMusicTransitionAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5293FB51CB2361700324659 /* QQMusicTransitionAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQMusicTransitionAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5293FB91CB2361700324659 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5293FBB1CB2361700324659 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5293FBC1CB2361700324659 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5293FBE1CB2361700324659 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F5293FBF1CB2361700324659 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F5293FC51CB2361700324659 /* QQMusicTransitionAnimation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QQMusicTransitionAnimation.xcdatamodel; sourceTree = "<group>"; };
+		F5293FC71CB2361700324659 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5293FCA1CB2361700324659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5293FCC1CB2361800324659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5293FD11CB2361800324659 /* QQMusicTransitionAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQMusicTransitionAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5293FD51CB2361800324659 /* QQMusicTransitionAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQMusicTransitionAnimationTests.m; sourceTree = "<group>"; };
+		F5293FD71CB2361800324659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5293FDC1CB2361800324659 /* QQMusicTransitionAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQMusicTransitionAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5293FE01CB2361800324659 /* QQMusicTransitionAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQMusicTransitionAnimationUITests.m; sourceTree = "<group>"; };
+		F5293FE21CB2361800324659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5293FEE1CB2364700324659 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F5293FEF1CB2364700324659 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F5293FF01CB2364700324659 /* TransitionFromSecondToFirst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionFromSecondToFirst.h; sourceTree = "<group>"; };
+		F5293FF11CB2364700324659 /* TransitionFromSecondToFirst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionFromSecondToFirst.m; sourceTree = "<group>"; };
+		F5293FF21CB2364700324659 /* TransitionFromFirstToSecond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionFromFirstToSecond.h; sourceTree = "<group>"; };
+		F5293FF31CB2364700324659 /* TransitionFromFirstToSecond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionFromFirstToSecond.m; sourceTree = "<group>"; };
+		F5293FF41CB2364700324659 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F5293FF91CB236EC00324659 /* taylorSwift.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taylorSwift.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5293FB21CB2361700324659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5293FCE1CB2361800324659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5293FD91CB2361800324659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5293FAC1CB2361700324659 = {
+			isa = PBXGroup;
+			children = (
+				F5293FB71CB2361700324659 /* QQMusicTransitionAnimation */,
+				F5293FD41CB2361800324659 /* QQMusicTransitionAnimationTests */,
+				F5293FDF1CB2361800324659 /* QQMusicTransitionAnimationUITests */,
+				F5293FB61CB2361700324659 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5293FB61CB2361700324659 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5293FB51CB2361700324659 /* QQMusicTransitionAnimation.app */,
+				F5293FD11CB2361800324659 /* QQMusicTransitionAnimationTests.xctest */,
+				F5293FDC1CB2361800324659 /* QQMusicTransitionAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5293FB71CB2361700324659 /* QQMusicTransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				F5293FBB1CB2361700324659 /* AppDelegate.h */,
+				F5293FBC1CB2361700324659 /* AppDelegate.m */,
+				F5293FF91CB236EC00324659 /* taylorSwift.jpg */,
+				F5293FBE1CB2361700324659 /* ViewController.h */,
+				F5293FBF1CB2361700324659 /* ViewController.m */,
+				F5293FEE1CB2364700324659 /* SecondViewController.h */,
+				F5293FEF1CB2364700324659 /* SecondViewController.m */,
+				F5293FF01CB2364700324659 /* TransitionFromSecondToFirst.h */,
+				F5293FF11CB2364700324659 /* TransitionFromSecondToFirst.m */,
+				F5293FF21CB2364700324659 /* TransitionFromFirstToSecond.h */,
+				F5293FF31CB2364700324659 /* TransitionFromFirstToSecond.m */,
+				F5293FF41CB2364700324659 /* Main.storyboard */,
+				F5293FC71CB2361700324659 /* Assets.xcassets */,
+				F5293FC91CB2361700324659 /* LaunchScreen.storyboard */,
+				F5293FCC1CB2361800324659 /* Info.plist */,
+				F5293FC41CB2361700324659 /* QQMusicTransitionAnimation.xcdatamodeld */,
+				F5293FB81CB2361700324659 /* Supporting Files */,
+			);
+			path = QQMusicTransitionAnimation;
+			sourceTree = "<group>";
+		};
+		F5293FB81CB2361700324659 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5293FB91CB2361700324659 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5293FD41CB2361800324659 /* QQMusicTransitionAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5293FD51CB2361800324659 /* QQMusicTransitionAnimationTests.m */,
+				F5293FD71CB2361800324659 /* Info.plist */,
+			);
+			path = QQMusicTransitionAnimationTests;
+			sourceTree = "<group>";
+		};
+		F5293FDF1CB2361800324659 /* QQMusicTransitionAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5293FE01CB2361800324659 /* QQMusicTransitionAnimationUITests.m */,
+				F5293FE21CB2361800324659 /* Info.plist */,
+			);
+			path = QQMusicTransitionAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5293FB41CB2361700324659 /* QQMusicTransitionAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5293FE51CB2361800324659 /* Build configuration list for PBXNativeTarget "QQMusicTransitionAnimation" */;
+			buildPhases = (
+				F5293FB11CB2361700324659 /* Sources */,
+				F5293FB21CB2361700324659 /* Frameworks */,
+				F5293FB31CB2361700324659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QQMusicTransitionAnimation;
+			productName = QQMusicTransitionAnimation;
+			productReference = F5293FB51CB2361700324659 /* QQMusicTransitionAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5293FD01CB2361800324659 /* QQMusicTransitionAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5293FE81CB2361800324659 /* Build configuration list for PBXNativeTarget "QQMusicTransitionAnimationTests" */;
+			buildPhases = (
+				F5293FCD1CB2361800324659 /* Sources */,
+				F5293FCE1CB2361800324659 /* Frameworks */,
+				F5293FCF1CB2361800324659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5293FD31CB2361800324659 /* PBXTargetDependency */,
+			);
+			name = QQMusicTransitionAnimationTests;
+			productName = QQMusicTransitionAnimationTests;
+			productReference = F5293FD11CB2361800324659 /* QQMusicTransitionAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5293FDB1CB2361800324659 /* QQMusicTransitionAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5293FEB1CB2361800324659 /* Build configuration list for PBXNativeTarget "QQMusicTransitionAnimationUITests" */;
+			buildPhases = (
+				F5293FD81CB2361800324659 /* Sources */,
+				F5293FD91CB2361800324659 /* Frameworks */,
+				F5293FDA1CB2361800324659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5293FDE1CB2361800324659 /* PBXTargetDependency */,
+			);
+			name = QQMusicTransitionAnimationUITests;
+			productName = QQMusicTransitionAnimationUITests;
+			productReference = F5293FDC1CB2361800324659 /* QQMusicTransitionAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5293FAD1CB2361700324659 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = JsonZhang;
+				TargetAttributes = {
+					F5293FB41CB2361700324659 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 32Q79DRCS7;
+					};
+					F5293FD01CB2361800324659 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 32Q79DRCS7;
+						TestTargetID = F5293FB41CB2361700324659;
+					};
+					F5293FDB1CB2361800324659 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 32Q79DRCS7;
+						TestTargetID = F5293FB41CB2361700324659;
+					};
+				};
+			};
+			buildConfigurationList = F5293FB01CB2361700324659 /* Build configuration list for PBXProject "QQMusicTransitionAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5293FAC1CB2361700324659;
+			productRefGroup = F5293FB61CB2361700324659 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5293FB41CB2361700324659 /* QQMusicTransitionAnimation */,
+				F5293FD01CB2361800324659 /* QQMusicTransitionAnimationTests */,
+				F5293FDB1CB2361800324659 /* QQMusicTransitionAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5293FB31CB2361700324659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5293FFA1CB236EC00324659 /* taylorSwift.jpg in Resources */,
+				F5293FCB1CB2361700324659 /* LaunchScreen.storyboard in Resources */,
+				F5293FC81CB2361700324659 /* Assets.xcassets in Resources */,
+				F5293FF81CB2364700324659 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5293FCF1CB2361800324659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5293FDA1CB2361800324659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5293FB11CB2361700324659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5293FF61CB2364700324659 /* TransitionFromSecondToFirst.m in Sources */,
+				F5293FF71CB2364700324659 /* TransitionFromFirstToSecond.m in Sources */,
+				F5293FF51CB2364700324659 /* SecondViewController.m in Sources */,
+				F5293FC01CB2361700324659 /* ViewController.m in Sources */,
+				F5293FC61CB2361700324659 /* QQMusicTransitionAnimation.xcdatamodeld in Sources */,
+				F5293FBD1CB2361700324659 /* AppDelegate.m in Sources */,
+				F5293FBA1CB2361700324659 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5293FCD1CB2361800324659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5293FD61CB2361800324659 /* QQMusicTransitionAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5293FD81CB2361800324659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5293FE11CB2361800324659 /* QQMusicTransitionAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5293FD31CB2361800324659 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5293FB41CB2361700324659 /* QQMusicTransitionAnimation */;
+			targetProxy = F5293FD21CB2361800324659 /* PBXContainerItemProxy */;
+		};
+		F5293FDE1CB2361800324659 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5293FB41CB2361700324659 /* QQMusicTransitionAnimation */;
+			targetProxy = F5293FDD1CB2361800324659 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5293FC91CB2361700324659 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5293FCA1CB2361700324659 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5293FE31CB2361800324659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5293FE41CB2361800324659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5293FE61CB2361800324659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QQMusicTransitionAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrzdr.github.com.QQMusicTransitionAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5293FE71CB2361800324659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QQMusicTransitionAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrzdr.github.com.QQMusicTransitionAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5293FE91CB2361800324659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QQMusicTransitionAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrzdr.github.com.QQMusicTransitionAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQMusicTransitionAnimation.app/QQMusicTransitionAnimation";
+			};
+			name = Debug;
+		};
+		F5293FEA1CB2361800324659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QQMusicTransitionAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrzdr.github.com.QQMusicTransitionAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQMusicTransitionAnimation.app/QQMusicTransitionAnimation";
+			};
+			name = Release;
+		};
+		F5293FEC1CB2361800324659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QQMusicTransitionAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrzdr.github.com.QQMusicTransitionAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QQMusicTransitionAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F5293FED1CB2361800324659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QQMusicTransitionAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrzdr.github.com.QQMusicTransitionAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QQMusicTransitionAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5293FB01CB2361700324659 /* Build configuration list for PBXProject "QQMusicTransitionAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5293FE31CB2361800324659 /* Debug */,
+				F5293FE41CB2361800324659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5293FE51CB2361800324659 /* Build configuration list for PBXNativeTarget "QQMusicTransitionAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5293FE61CB2361800324659 /* Debug */,
+				F5293FE71CB2361800324659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5293FE81CB2361800324659 /* Build configuration list for PBXNativeTarget "QQMusicTransitionAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5293FE91CB2361800324659 /* Debug */,
+				F5293FEA1CB2361800324659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5293FEB1CB2361800324659 /* Build configuration list for PBXNativeTarget "QQMusicTransitionAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5293FEC1CB2361800324659 /* Debug */,
+				F5293FED1CB2361800324659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F5293FC41CB2361700324659 /* QQMusicTransitionAnimation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F5293FC51CB2361700324659 /* QQMusicTransitionAnimation.xcdatamodel */,
+			);
+			currentVersion = F5293FC51CB2361700324659 /* QQMusicTransitionAnimation.xcdatamodel */;
+			path = QQMusicTransitionAnimation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F5293FAD1CB2361700324659 /* Project object */;
+}
