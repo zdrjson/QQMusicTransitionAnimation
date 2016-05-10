@@ -435,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QQMusicTransitionAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zdrzdr.github.com.QQMusicTransitionAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QQMusicTransitionAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zdrzdr.github.com.QQMusicTransitionAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -519,6 +521,7 @@
 				F5293FE71CB2361800324659 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5293FE81CB2361800324659 /* Build configuration list for PBXNativeTarget "QQMusicTransitionAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +530,7 @@
 				F5293FEA1CB2361800324659 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5293FEB1CB2361800324659 /* Build configuration list for PBXNativeTarget "QQMusicTransitionAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +539,7 @@
 				F5293FED1CB2361800324659 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

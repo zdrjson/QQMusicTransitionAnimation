@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="F4q-4k-qmN">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="F4q-4k-qmN">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -32,17 +33,42 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blank Space" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9as-1f-2Hj">
+                                        <rect key="frame" x="60" y="8" width="80" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="nBa-nM-Skw"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Taylor Swift" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Trl-Tj-dR2">
+                                        <rect key="frame" x="60" y="31" width="284" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="9EL-OA-lbd"/>
+                                            <constraint firstAttribute="width" constant="284" id="R9m-4J-dPH"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="Trl-Tj-dR2" firstAttribute="leading" secondItem="9as-1f-2Hj" secondAttribute="leading" id="DjG-KA-V2q"/>
                                     <constraint firstItem="v6O-Db-JYA" firstAttribute="top" secondItem="Y5a-AI-D3b" secondAttribute="top" constant="8" id="ID9-P8-yKP"/>
                                     <constraint firstAttribute="height" constant="60" id="IK5-WD-Qqy"/>
+                                    <constraint firstItem="9as-1f-2Hj" firstAttribute="top" secondItem="v6O-Db-JYA" secondAttribute="top" id="SkF-G0-gqg"/>
+                                    <constraint firstItem="9as-1f-2Hj" firstAttribute="top" secondItem="Y5a-AI-D3b" secondAttribute="top" constant="8" id="ZMP-hd-Fzc"/>
+                                    <constraint firstItem="Trl-Tj-dR2" firstAttribute="top" secondItem="9as-1f-2Hj" secondAttribute="bottom" constant="2" id="ZgO-0L-qxD"/>
                                     <constraint firstItem="v6O-Db-JYA" firstAttribute="leading" secondItem="Y5a-AI-D3b" secondAttribute="leading" constant="8" id="g7V-Rb-sL1"/>
+                                    <constraint firstItem="9as-1f-2Hj" firstAttribute="leading" secondItem="v6O-Db-JYA" secondAttribute="trailing" constant="8" id="oFJ-fc-e7A"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RbY-2x-QT3">
-                                <rect key="frame" x="277" y="285" width="46" height="30"/>
-                                <state key="normal" title="Button">
+                                <rect key="frame" x="280" y="283" width="39" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Swift">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -82,8 +108,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N6R-c3-RcG">
-                                <rect key="frame" x="277" y="74" width="46" height="30"/>
-                                <state key="normal" title="Button">
+                                <rect key="frame" x="282.5" y="74" width="35" height="30"/>
+                                <state key="normal" title="Swift">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
